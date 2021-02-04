@@ -46,12 +46,47 @@ def HMC(target, dim, step_size, n_steps, device):
     return kernel, init_generator
 
 
+def recycled_HMC(target, dim, step_size, n_steps, device):
+    momentum = Normal(1.0, dim, device)
+    LF = LeapFrog(target, momentum, step_size, dim, device)
+    
+    def kernel(x_0, v_0, d):
+        assert (x_0.shape[1] == dim) and (v_0.shape[1] == dim)
+        # iterating over orbit
+        x, v, log_probs = LF.iterate_n(x_0, v_0, n_steps)
+        
+        # accepting orbit
+        log_p = (log_probs[:,1:] - log_probs[:,0][:,np.newaxis])
+        log_u = torch.log(torch.zeros_like(log_p).uniform_().to(device))
+        weights = (log_p > log_u).float()
+        samples = x[:,:,1:]
+        assert (samples.shape[0] == weights.shape[0]) and (samples.shape[2] == weights.shape[1])
+        
+        # switching between orbits
+        log_p = (log_probs[:,n_steps] - log_probs[:,0]).flatten()
+        log_u = torch.log(torch.zeros_like(log_p).uniform_().to(device))
+        accepted_mask = (log_p > log_u).float()
+        accepted_mask = accepted_mask[:,np.newaxis]
+        next_x = x[:,:,-1]*accepted_mask + x[:,:,0]*(1-accepted_mask)
+        next_state = (next_x, momentum.sample(x.shape[0]), d)
+        
+        return samples, weights, next_state, accepted_mask
+    
+    def init_generator(batch_size):
+        return torch.zeros([batch_size, dim]), momentum.sample(batch_size)
+    
+    return kernel, init_generator
+
+
 def batch_categorical(probs, device):
     batch_size = probs.shape[0]
     u = torch.empty([batch_size,1]).uniform_().to(device)
     cums = torch.cumsum(probs, dim=1) - u
     cums[cums > 0.0] = 0.0
-    ids = torch.sum(-torch.sign(cums), dim=1).long()
+    cums[cums < 0.0] = 1.0
+    ids = torch.sum(cums, dim=1).long()
+    ids[ids == probs.shape[1]] = probs.shape[1]-1 # !@#$%^ numerical errors
+    assert torch.sum(ids >= probs.shape[1]) == 0
     return ids
 
 

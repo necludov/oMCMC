@@ -1,0 +1,57 @@
+Starting experiment with seed=0
+Adapting HMC...
+adaptation budget is 61928 with 100 chains
+eps = 0.1524; T = 21.3929; T/eps = 141.0
+Running hmc ...
+hmc results:
+mean AR = 0.652; min AR = 0.631; max AR = 0.677
+min ESS = 2.1238e-01; min ESS / budget = 1.5845e-06; budget = 72109
+Running rechmc ...
+rechmc results:
+mean AR = 0.655; min AR = 0.636; max AR = 0.678
+min ESS = 2.0840e-01; min ESS / budget = 1.5783e-06; budget = 70110
+Running ohmc ...
+ohmc results:
+mean AR = 0.989; min AR = 0.989; max AR = 0.990
+min ESS = 1.5708e-01; min ESS / budget = 1.1712e-06; budget = 72192
+Running optmc ...
+iteration 0/10
+optmc results:
+average length = 5.8683e+00; average iter = 44.76; budget = 72115
+min ESS = 1.5404e-02; min ESS / budget = 1.1492e-07; budget = 72115
+iteration 1/10
+optmc results:
+average length = 5.7327e+00; average iter = 44.72; budget = 72141
+min ESS = 1.6793e-02; min ESS / budget = 1.2525e-07; budget = 72141
+iteration 2/10
+optmc results:
+average length = 5.6498e+00; average iter = 44.64; budget = 72133
+min ESS = 1.7887e-02; min ESS / budget = 1.3342e-07; budget = 72133
+iteration 3/10
+optmc results:
+average length = 5.7647e+00; average iter = 44.25; budget = 72135
+min ESS = 1.6165e-02; min ESS / budget = 1.2058e-07; budget = 72135
+iteration 4/10
+optmc results:
+average length = 5.3916e+00; average iter = 44.77; budget = 72132
+min ESS = 1.5053e-02; min ESS / budget = 1.1228e-07; budget = 72132
+iteration 5/10
+optmc results:
+average length = 5.5135e+00; average iter = 45.14; budget = 72129
+min ESS = 1.8005e-02; min ESS / budget = 1.3431e-07; budget = 72129
+iteration 6/10
+optmc results:
+average length = 5.6274e+00; average iter = 44.36; budget = 72143
+min ESS = 1.6452e-02; min ESS / budget = 1.2271e-07; budget = 72143
+iteration 7/10
+optmc results:
+average length = 5.7064e+00; average iter = 45.02; budget = 72147
+min ESS = 1.8139e-02; min ESS / budget = 1.3529e-07; budget = 72147
+iteration 8/10
+optmc results:
+average length = 5.7780e+00; average iter = 45.01; budget = 72129
+min ESS = 1.5117e-02; min ESS / budget = 1.1277e-07; budget = 72129
+iteration 9/10
+optmc results:
+average length = 5.5993e+00; average iter = 44.82; budget = 72130
+min ESS = 1.9292e-02; min ESS / budget = 1.4391e-07; budget = 72130

@@ -1,0 +1,25 @@
+Starting experiment with seed=0
+Adapting HMC...
+adaptation budget is 33330 with 10 chains
+eps = 0.0263; T = 1.6018; T/eps = 61.0
+Running hmc ...
+hmc results:
+mean AR = 0.739; min AR = 0.725; max AR = 0.763
+min ESS = 1.6301e-01; min ESS / budget = 2.5570e-06; budget = 30418
+Running rechmc ...
+rechmc results:
+mean AR = 0.747; min AR = 0.738; max AR = 0.757
+min ESS = 1.5565e-01; min ESS / budget = 2.4190e-06; budget = 31015
+Running ohmc ...
+ohmc results:
+mean AR = 0.978; min AR = 0.978; max AR = 0.979
+min ESS = 7.7667e-02; min ESS / budget = 1.2179e-06; budget = 30439
+Starting experiment with seed=0
+Adapting HMC...
+adaptation budget is 33719 with 100 chains
+eps = 0.0231; T = 1.3169; T/eps = 58.0
+Running hmc ...
+hmc results:
+mean AR = 0.692; min AR = 0.672; max AR = 0.715
+min ESS = 1.8338e-01; min ESS / budget = 2.9227e-06; budget = 29025
+Running rechmc ...

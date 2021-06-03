@@ -1,0 +1,1555 @@
+Starting experiment with seed=0
+Adapting HMC...
+adaptation budget is tensor([2927]) with 100 chains
+eps = 0.0697; T = 0.3156; T/eps = 5.0
+Running hmc ...
+hmc results:
+mean AR = 0.642; min AR = 0.624; max AR = 0.659
+min ESS = 2.1041e-01; min ESS / budget = 7.5632e-05; budget = 2782
+Running rechmc ...
+rechmc results:
+mean AR = 0.655; min AR = 0.637; max AR = 0.666
+min ESS = 2.0024e-01; min ESS / budget = 7.1772e-05; budget = 2790
+Running ohmc ...
+ohmc results:
+mean AR = 0.762; min AR = 0.754; max AR = 0.772
+min ESS = 1.7200e-01; min ESS / budget = 6.1760e-05; budget = 2785
+Starting experiment with seed=0
+Adapting HMC...
+adaptation budget is tensor([2927]) with 100 chains
+eps = 0.0697; T = 0.3156; T/eps = 5.0
+Running hmc ...
+hmc results:
+mean AR = 0.642; min AR = 0.624; max AR = 0.659
+min ESS = 2.1041e-01; min ESS / budget = 7.5632e-05; budget = 2782
+Running rechmc ...
+rechmc results:
+mean AR = 0.655; min AR = 0.637; max AR = 0.666
+min ESS = 2.0024e-01; min ESS / budget = 7.1772e-05; budget = 2790
+Running ohmc ...
+ohmc results:
+mean AR = 0.762; min AR = 0.754; max AR = 0.772
+min ESS = 1.7200e-01; min ESS / budget = 6.1760e-05; budget = 2785
+Running optmc ...
+iteration 0/10
+optmc results:
+average length = 4.5003e-02; average iter = 3.74; budget = 2783
+min ESS = 1.5956e-02; min ESS / budget = 5.7333e-06; budget = 2783
+iteration 1/10
+optmc results:
+average length = 4.0406e-02; average iter = 3.68; budget = 2784
+min ESS = 1.5557e-02; min ESS / budget = 5.5879e-06; budget = 2784
+iteration 2/10
+optmc results:
+average length = 4.6536e-02; average iter = 3.72; budget = 2784
+min ESS = 1.3418e-02; min ESS / budget = 4.8197e-06; budget = 2784
+iteration 3/10
+optmc results:
+average length = 3.7149e-02; average iter = 3.68; budget = 2783
+min ESS = 1.3906e-02; min ESS / budget = 4.9967e-06; budget = 2783
+iteration 4/10
+optmc results:
+average length = 4.8317e-02; average iter = 3.75; budget = 2785
+min ESS = 1.4504e-02; min ESS / budget = 5.2081e-06; budget = 2785
+iteration 5/10
+optmc results:
+average length = 4.3106e-02; average iter = 3.72; budget = 2784
+min ESS = 1.1573e-02; min ESS / budget = 4.1568e-06; budget = 2784
+iteration 6/10
+optmc results:
+average length = 3.9043e-02; average iter = 3.70; budget = 2783
+min ESS = 1.5386e-02; min ESS / budget = 5.5287e-06; budget = 2783
+iteration 7/10
+optmc results:
+average length = 4.2224e-02; average iter = 3.69; budget = 2783
+min ESS = 1.3017e-02; min ESS / budget = 4.6772e-06; budget = 2783
+iteration 8/10
+optmc results:
+average length = 4.4714e-02; average iter = 3.71; budget = 2785
+min ESS = 1.6350e-02; min ESS / budget = 5.8709e-06; budget = 2785
+iteration 9/10
+optmc results:
+average length = 3.7150e-02; average iter = 3.68; budget = 2785
+min ESS = 1.3077e-02; min ESS / budget = 4.6956e-06; budget = 2785
+Starting experiment with seed=0
+Adapting HMC...
+adaptation budget is 2927 with 1000 chains
+eps = 0.0697; T = 0.3156; T/eps = 5.0
+Running hmc ...
+hmc results:
+mean AR = 0.647; min AR = 0.618; max AR = 0.673
+min ESS = 2.0638e-01; min ESS / budget = 3.6100e-05; budget = 2790
+Running rechmc ...
+rechmc results:
+mean AR = 0.650; min AR = 0.625; max AR = 0.670
+min ESS = 1.9358e-01; min ESS / budget = 3.3630e-05; budget = 2829
+Running ohmc ...
+ohmc results:
+mean AR = 0.765; min AR = 0.754; max AR = 0.774
+min ESS = 1.6850e-01; min ESS / budget = 2.9449e-05; budget = 2795
+Running optmc ...
+iteration 0/10
+optmc results:
+average length = 4.1847e-02; average iter = 3.74; budget = 2791
+min ESS = 1.7744e-02; min ESS / budget = 3.1031e-06; budget = 2791
+iteration 1/10
+optmc results:
+average length = 3.7444e-02; average iter = 3.65; budget = 2792
+min ESS = 1.7038e-02; min ESS / budget = 2.9792e-06; budget = 2792
+iteration 2/10
+optmc results:
+average length = 3.5180e-02; average iter = 3.67; budget = 2793
+min ESS = 1.3812e-02; min ESS / budget = 2.4146e-06; budget = 2793
+iteration 3/10
+optmc results:
+average length = 3.8173e-02; average iter = 3.71; budget = 2791
+min ESS = 1.3513e-02; min ESS / budget = 2.3633e-06; budget = 2791
+iteration 4/10
+optmc results:
+average length = 3.6750e-02; average iter = 3.66; budget = 2793
+min ESS = 1.2798e-02; min ESS / budget = 2.2374e-06; budget = 2793
+iteration 5/10
+optmc results:
+average length = 2.4355e-02; average iter = 3.63; budget = 2791
+min ESS = 1.4543e-02; min ESS / budget = 2.5434e-06; budget = 2791
+iteration 6/10
+optmc results:
+average length = 4.4051e-02; average iter = 3.72; budget = 2793
+min ESS = 1.7756e-02; min ESS / budget = 3.1041e-06; budget = 2793
+iteration 7/10
+optmc results:
+average length = 4.2709e-02; average iter = 3.72; budget = 2792
+min ESS = 1.3032e-02; min ESS / budget = 2.2787e-06; budget = 2792
+iteration 8/10
+optmc results:
+average length = 4.1256e-02; average iter = 3.72; budget = 2792
+min ESS = 1.4233e-02; min ESS / budget = 2.4888e-06; budget = 2792
+iteration 9/10
+optmc results:
+average length = 3.9016e-02; average iter = 3.69; budget = 2791
+min ESS = 1.4260e-02; min ESS / budget = 2.4939e-06; budget = 2791
+Starting experiment with seed=0
+Adapting HMC...
+adaptation budget is 2927 with 1000 chains
+eps = 0.0697; T = 0.3156; T/eps = 5.0
+Running hmc ...
+hmc results:
+mean AR = 0.647; min AR = 0.618; max AR = 0.673
+min ESS = 2.0638e-01; min ESS / budget = 3.6100e-05; budget = 2790
+Running rechmc ...
+rechmc results:
+mean AR = 0.650; min AR = 0.625; max AR = 0.670
+min ESS = 1.9358e-01; min ESS / budget = 3.3630e-05; budget = 2829
+Running ohmc ...
+ohmc results:
+mean AR = 0.765; min AR = 0.754; max AR = 0.774
+min ESS = 1.6850e-01; min ESS / budget = 2.9449e-05; budget = 2795
+Running optmc ...
+iteration 0/10
+optmc results:
+average length = 2.1289e-02; average iter = 3.42; budget = 2792
+min ESS = 1.5915e-02; min ESS / budget = 2.7828e-06; budget = 2792
+iteration 1/10
+optmc results:
+average length = 1.6627e-02; average iter = 3.35; budget = 2791
+min ESS = 1.2401e-02; min ESS / budget = 2.1688e-06; budget = 2791
+iteration 2/10
+optmc results:
+average length = 1.0778e-02; average iter = 3.32; budget = 2791
+min ESS = 1.3329e-02; min ESS / budget = 2.3310e-06; budget = 2791
+iteration 3/10
+optmc results:
+average length = 2.4953e-02; average iter = 3.46; budget = 2792
+min ESS = 1.2052e-02; min ESS / budget = 2.1074e-06; budget = 2792
+iteration 4/10
+optmc results:
+average length = 2.5103e-02; average iter = 3.43; budget = 2793
+min ESS = 1.3725e-02; min ESS / budget = 2.3995e-06; budget = 2793
+iteration 5/10
+optmc results:
+average length = 2.2272e-02; average iter = 3.40; budget = 2792
+min ESS = 1.2470e-02; min ESS / budget = 2.1804e-06; budget = 2792
+iteration 6/10
+optmc results:
+average length = 2.2791e-02; average iter = 3.40; budget = 2791
+min ESS = 1.0955e-02; min ESS / budget = 1.9159e-06; budget = 2791
+iteration 7/10
+optmc results:
+average length = 1.3086e-02; average iter = 3.34; budget = 2791
+min ESS = 1.1916e-02; min ESS / budget = 2.0839e-06; budget = 2791
+iteration 8/10
+optmc results:
+average length = 1.3714e-02; average iter = 3.41; budget = 2793
+min ESS = 1.2228e-02; min ESS / budget = 2.1377e-06; budget = 2793
+iteration 9/10
+optmc results:
+average length = 1.9269e-02; average iter = 3.40; budget = 2793
+min ESS = 1.2062e-02; min ESS / budget = 2.1087e-06; budget = 2793
+Starting experiment with seed=0
+Adapting HMC...
+adaptation budget is 2927 with 1000 chains
+eps = 0.0697; T = 0.3156; T/eps = 5.0
+Running hmc ...
+hmc results:
+mean AR = 0.647; min AR = 0.618; max AR = 0.673
+min ESS = 2.0638e-01; min ESS / budget = 3.6100e-05; budget = 2790
+Running rechmc ...
+rechmc results:
+mean AR = 0.650; min AR = 0.625; max AR = 0.670
+min ESS = 1.9358e-01; min ESS / budget = 3.3630e-05; budget = 2829
+Running ohmc ...
+ohmc results:
+mean AR = 0.765; min AR = 0.748; max AR = 0.775
+min ESS = 1.6293e-01; min ESS / budget = 2.8475e-05; budget = 2795
+Running optmc ...
+iteration 0/10
+optmc results:
+average length = 2.7891e-02; average iter = 3.40; budget = 2791
+min ESS = 1.6733e-02; min ESS / budget = 2.9263e-06; budget = 2791
+iteration 1/10
+optmc results:
+average length = 1.2715e-02; average iter = 3.36; budget = 2792
+min ESS = 1.2280e-02; min ESS / budget = 2.1471e-06; budget = 2792
+iteration 2/10
+optmc results:
+average length = 1.8684e-02; average iter = 3.39; budget = 2792
+min ESS = 1.5491e-02; min ESS / budget = 2.7087e-06; budget = 2792
+iteration 3/10
+optmc results:
+average length = 2.3983e-02; average iter = 3.40; budget = 2793
+min ESS = 1.2141e-02; min ESS / budget = 2.1226e-06; budget = 2793
+iteration 4/10
+optmc results:
+average length = 1.6343e-02; average iter = 3.36; budget = 2792
+min ESS = 1.3908e-02; min ESS / budget = 2.4319e-06; budget = 2792
+iteration 5/10
+optmc results:
+average length = 2.2933e-02; average iter = 3.42; budget = 2792
+min ESS = 1.5386e-02; min ESS / budget = 2.6903e-06; budget = 2792
+iteration 6/10
+optmc results:
+average length = 2.5665e-02; average iter = 3.42; budget = 2791
+min ESS = 1.5015e-02; min ESS / budget = 2.6260e-06; budget = 2791
+iteration 7/10
+optmc results:
+average length = 2.0260e-02; average iter = 3.39; budget = 2791
+min ESS = 1.4157e-02; min ESS / budget = 2.4759e-06; budget = 2791
+iteration 8/10
+optmc results:
+average length = 2.5389e-02; average iter = 3.42; budget = 2791
+min ESS = 1.3020e-02; min ESS / budget = 2.2770e-06; budget = 2791
+iteration 9/10
+optmc results:
+average length = 1.6708e-02; average iter = 3.38; budget = 2791
+min ESS = 1.1467e-02; min ESS / budget = 2.0054e-06; budget = 2791
+Starting experiment with seed=0
+Adapting HMC...
+adaptation budget is 2440 with 100 chains
+eps = 0.0674; T = 0.2481; T/eps = 4.0
+Running hmc ...
+hmc results:
+mean AR = 0.638; min AR = 0.604; max AR = 0.660
+min ESS = 1.9284e-01; min ESS / budget = 4.0041e-05; budget = 2376
+Running rechmc ...
+rechmc results:
+mean AR = 0.638; min AR = 0.612; max AR = 0.666
+min ESS = 1.8178e-01; min ESS / budget = 3.7823e-05; budget = 2366
+Running ohmc ...
+ohmc results:
+mean AR = 0.718; min AR = 0.704; max AR = 0.730
+min ESS = 1.3637e-01; min ESS / budget = 2.8292e-05; budget = 2380
+Running optmc ...
+iteration 0/10
+optmc results:
+average length = 2.8166e-02; average iter = 3.43; budget = 2378
+min ESS = 1.3034e-02; min ESS / budget = 2.7052e-06; budget = 2378
+iteration 1/10
+optmc results:
+average length = 1.6747e-02; average iter = 3.38; budget = 2377
+min ESS = 1.3193e-02; min ESS / budget = 2.7388e-06; budget = 2377
+iteration 2/10
+optmc results:
+average length = 1.0010e-02; average iter = 3.32; budget = 2378
+min ESS = 1.0799e-02; min ESS / budget = 2.2413e-06; budget = 2378
+iteration 3/10
+optmc results:
+average length = 2.2372e-02; average iter = 3.38; budget = 2378
+min ESS = 1.2304e-02; min ESS / budget = 2.5538e-06; budget = 2378
+iteration 4/10
+optmc results:
+average length = 1.7131e-02; average iter = 3.40; budget = 2377
+min ESS = 1.2738e-02; min ESS / budget = 2.6443e-06; budget = 2377
+iteration 5/10
+optmc results:
+average length = 1.8343e-02; average iter = 3.33; budget = 2378
+min ESS = 1.0181e-02; min ESS / budget = 2.1132e-06; budget = 2378
+iteration 6/10
+optmc results:
+average length = 1.7134e-02; average iter = 3.36; budget = 2379
+min ESS = 1.4261e-02; min ESS / budget = 2.9594e-06; budget = 2379
+iteration 7/10
+optmc results:
+average length = 1.3015e-02; average iter = 3.33; budget = 2378
+min ESS = 1.3752e-02; min ESS / budget = 2.8544e-06; budget = 2378
+iteration 8/10
+optmc results:
+average length = 1.9842e-02; average iter = 3.37; budget = 2377
+min ESS = 1.0202e-02; min ESS / budget = 2.1180e-06; budget = 2377
+iteration 9/10
+optmc results:
+average length = 2.0091e-02; average iter = 3.38; budget = 2377
+min ESS = 1.2045e-02; min ESS / budget = 2.5004e-06; budget = 2377
+Starting experiment with seed=0
+Adapting HMC...
+adaptation budget is 2927 with 100 chains
+eps = 0.0697; T = 0.3156; T/eps = 5.0
+Running hmc ...
+hmc results:
+mean AR = 0.647; min AR = 0.618; max AR = 0.673
+min ESS = 2.0638e-01; min ESS / budget = 3.6100e-05; budget = 2790
+Running rechmc ...
+rechmc results:
+mean AR = 0.650; min AR = 0.625; max AR = 0.670
+min ESS = 1.9358e-01; min ESS / budget = 3.3630e-05; budget = 2829
+Starting experiment with seed=1
+Adapting HMC...
+adaptation budget is 2889 with 100 chains
+eps = 0.0696; T = 0.3525; T/eps = 6.0
+Running hmc ...
+hmc results:
+mean AR = 0.653; min AR = 0.632; max AR = 0.675
+min ESS = 2.5090e-01; min ESS / budget = 4.1817e-05; budget = 3111
+Running rechmc ...
+rechmc results:
+mean AR = 0.651; min AR = 0.626; max AR = 0.681
+min ESS = 2.1630e-01; min ESS / budget = 3.6433e-05; budget = 3048
+Running ohmc ...
+ohmc results:
+mean AR = 0.801; min AR = 0.791; max AR = 0.812
+min ESS = 2.3007e-01; min ESS / budget = 3.8326e-05; budget = 3114
+Running optmc ...
+iteration 0/10
+optmc results:
+average length = 2.4243e-02; average iter = 3.42; budget = 3113
+min ESS = 1.5625e-02; min ESS / budget = 2.6033e-06; budget = 3113
+iteration 1/10
+optmc results:
+average length = 2.2117e-02; average iter = 3.38; budget = 3112
+min ESS = 1.3962e-02; min ESS / budget = 2.3267e-06; budget = 3112
+iteration 2/10
+optmc results:
+average length = 1.9770e-02; average iter = 3.40; budget = 3112
+min ESS = 1.3372e-02; min ESS / budget = 2.2283e-06; budget = 3112
+iteration 3/10
+optmc results:
+average length = 1.7257e-02; average iter = 3.35; budget = 3112
+min ESS = 1.3588e-02; min ESS / budget = 2.2642e-06; budget = 3112
+iteration 4/10
+optmc results:
+average length = 2.9261e-02; average iter = 3.43; budget = 3113
+min ESS = 1.6945e-02; min ESS / budget = 2.8232e-06; budget = 3113
+iteration 5/10
+optmc results:
+average length = 1.9867e-02; average iter = 3.38; budget = 3113
+min ESS = 1.2704e-02; min ESS / budget = 2.1167e-06; budget = 3113
+iteration 6/10
+optmc results:
+average length = 1.6574e-02; average iter = 3.35; budget = 3112
+min ESS = 1.2254e-02; min ESS / budget = 2.0419e-06; budget = 3112
+iteration 7/10
+optmc results:
+average length = 2.5978e-02; average iter = 3.42; budget = 3113
+min ESS = 1.5643e-02; min ESS / budget = 2.6063e-06; budget = 3113
+iteration 8/10
+optmc results:
+average length = 2.4707e-02; average iter = 3.41; budget = 3113
+min ESS = 1.3556e-02; min ESS / budget = 2.2586e-06; budget = 3113
+iteration 9/10
+optmc results:
+average length = 2.8124e-02; average iter = 3.43; budget = 3113
+min ESS = 1.3857e-02; min ESS / budget = 2.3087e-06; budget = 3113
+Starting experiment with seed=1
+Adapting HMC...
+adaptation budget is 2889 with 100 chains
+eps = 0.0696; T = 0.3525; T/eps = 6.0
+Running hmc ...
+hmc results:
+mean AR = 0.653; min AR = 0.632; max AR = 0.675
+min ESS = 2.5090e-01; min ESS / budget = 4.1817e-05; budget = 3111
+Running rechmc ...
+rechmc results:
+mean AR = 0.651; min AR = 0.626; max AR = 0.681
+min ESS = 2.1630e-01; min ESS / budget = 3.6433e-05; budget = 3048
+Running ohmc ...
+ohmc results:
+mean AR = 0.801; min AR = 0.791; max AR = 0.812
+min ESS = 2.3007e-01; min ESS / budget = 3.8326e-05; budget = 3114
+Running optmc ...
+iteration 0/10
+optmc results:
+average length = 8.8497e-02; average iter = 5.47; budget = 3114
+min ESS = 1.3532e-02; min ESS / budget = 2.2542e-06; budget = 3114
+iteration 1/10
+optmc results:
+average length = 7.7928e-02; average iter = 5.49; budget = 3113
+min ESS = 1.5680e-02; min ESS / budget = 2.6125e-06; budget = 3113
+iteration 2/10
+optmc results:
+average length = 9.1500e-02; average iter = 5.51; budget = 3118
+min ESS = 1.2675e-02; min ESS / budget = 2.1101e-06; budget = 3118
+iteration 3/10
+optmc results:
+average length = 8.2211e-02; average iter = 5.50; budget = 3116
+min ESS = 1.4749e-02; min ESS / budget = 2.4562e-06; budget = 3116
+iteration 4/10
+optmc results:
+average length = 9.2411e-02; average iter = 5.48; budget = 3113
+min ESS = 1.4093e-02; min ESS / budget = 2.3481e-06; budget = 3113
+iteration 5/10
+Starting experiment with seed=1
+Adapting HMC...
+adaptation budget is 3036 with 100 chains
+eps = 0.0695; T = 0.3462; T/eps = 5.0
+Running hmc ...
+hmc results:
+mean AR = 0.654; min AR = 0.632; max AR = 0.673
+min ESS = 2.5924e-01; min ESS / budget = 4.2443e-05; budget = 3072
+Running rechmc ...
+Starting experiment with seed=1
+Adapting HMC...
+adaptation budget is 14999 with 100 chains
+eps = 0.0700; T = 1.0504; T/eps = 15.0
+Running hmc ...
+hmc results:
+mean AR = 0.655; min AR = 0.630; max AR = 0.677
+min ESS = 2.6368e-01; min ESS / budget = 1.1350e-05; budget = 8234
+Running rechmc ...
+rechmc results:
+mean AR = 0.653; min AR = 0.629; max AR = 0.682
+min ESS = 3.8439e-01; min ESS / budget = 1.6440e-05; budget = 8382
+Running ohmc ...
+ohmc results:
+mean AR = 0.906; min AR = 0.900; max AR = 0.911
+min ESS = 5.7982e-01; min ESS / budget = 2.4956e-05; budget = 8235
+Running optmc ...
+iteration 0/10
+optmc results:
+average length = 7.6400e-02; average iter = 5.14; budget = 8237
+min ESS = 1.5588e-02; min ESS / budget = 6.7086e-07; budget = 8237
+iteration 1/10
+Starting experiment with seed=1
+Adapting HMC...
+adaptation budget is 9596 with 100 chains
+eps = 0.0704; T = 1.1261; T/eps = 16.0
+Running hmc ...
+Starting experiment with seed=1
+Adapting HMC...
+adaptation budget is 9596 with 100 chains
+eps = 0.0704; T = 1.1261; T/eps = 16.0
+Running hmc ...
+hmc results:
+mean AR = 0.649; min AR = 0.633; max AR = 0.670
+min ESS = 2.7945e-01; min ESS / budget = 1.5214e-05; budget = 8772
+Running rechmc ...
+rechmc results:
+mean AR = 0.648; min AR = 0.625; max AR = 0.671
+min ESS = 3.7951e-01; min ESS / budget = 2.0815e-05; budget = 8637
+Running ohmc ...
+ohmc results:
+mean AR = 0.912; min AR = 0.906; max AR = 0.917
+min ESS = 5.6847e-01; min ESS / budget = 3.0929e-05; budget = 8784
+Running optmc ...
+iteration 0/10
+optmc results:
+average length = 2.3272e-02; average iter = 3.78; budget = 8774
+min ESS = 2.0807e-02; min ESS / budget = 1.1326e-06; budget = 8774
+iteration 1/10
+optmc results:
+average length = 2.3944e-02; average iter = 3.77; budget = 8773
+min ESS = 1.8429e-02; min ESS / budget = 1.0033e-06; budget = 8773
+iteration 2/10
+optmc results:
+average length = 2.4036e-02; average iter = 3.76; budget = 8774
+min ESS = 1.6641e-02; min ESS / budget = 9.0590e-07; budget = 8774
+iteration 3/10
+optmc results:
+average length = 2.5553e-02; average iter = 3.77; budget = 8774
+min ESS = 1.5995e-02; min ESS / budget = 8.7070e-07; budget = 8774
+iteration 4/10
+optmc results:
+average length = 2.4161e-02; average iter = 3.77; budget = 8774
+min ESS = 1.7152e-02; min ESS / budget = 9.3369e-07; budget = 8774
+iteration 5/10
+optmc results:
+average length = 2.5248e-02; average iter = 3.75; budget = 8775
+min ESS = 2.0176e-02; min ESS / budget = 1.0983e-06; budget = 8775
+iteration 6/10
+optmc results:
+average length = 1.9574e-02; average iter = 3.76; budget = 8774
+min ESS = 1.5872e-02; min ESS / budget = 8.6404e-07; budget = 8774
+iteration 7/10
+optmc results:
+average length = 2.4122e-02; average iter = 3.76; budget = 8774
+min ESS = 1.8991e-02; min ESS / budget = 1.0338e-06; budget = 8774
+iteration 8/10
+optmc results:
+average length = 2.3079e-02; average iter = 3.75; budget = 8773
+min ESS = 1.5972e-02; min ESS / budget = 8.6952e-07; budget = 8773
+iteration 9/10
+optmc results:
+average length = 2.3316e-02; average iter = 3.76; budget = 8773
+min ESS = 2.2352e-02; min ESS / budget = 1.2168e-06; budget = 8773
+Starting experiment with seed=1
+Adapting HMC...
+adaptation budget is 9596 with 100 chains
+eps = 0.0704; T = 1.1261; T/eps = 16.0
+Running hmc ...
+hmc results:
+mean AR = 0.649; min AR = 0.633; max AR = 0.670
+min ESS = 2.7945e-01; min ESS / budget = 1.5214e-05; budget = 8772
+Running rechmc ...
+rechmc results:
+mean AR = 0.648; min AR = 0.625; max AR = 0.671
+min ESS = 3.7951e-01; min ESS / budget = 2.0815e-05; budget = 8637
+Running ohmc ...
+ohmc results:
+mean AR = 0.912; min AR = 0.906; max AR = 0.917
+min ESS = 5.6847e-01; min ESS / budget = 3.0929e-05; budget = 8784
+Running optmc ...
+iteration 0/10
+optmc results:
+average length = 6.6567e-01; average iter = 69.91; budget = 8821
+min ESS = 7.8176e-01; min ESS / budget = 4.2448e-05; budget = 8821
+iteration 1/10
+optmc results:
+average length = 6.9342e-01; average iter = 71.15; budget = 8839
+min ESS = 5.2859e-01; min ESS / budget = 2.8673e-05; budget = 8839
+iteration 2/10
+optmc results:
+average length = 7.4584e-01; average iter = 71.09; budget = 8831
+min ESS = 7.8480e-01; min ESS / budget = 4.2589e-05; budget = 8831
+iteration 3/10
+optmc results:
+average length = 6.6093e-01; average iter = 70.65; budget = 8776
+min ESS = 8.5974e-01; min ESS / budget = 4.6796e-05; budget = 8776
+iteration 4/10
+optmc results:
+average length = 6.5336e-01; average iter = 69.95; budget = 8826
+min ESS = 6.8723e-01; min ESS / budget = 3.7305e-05; budget = 8826
+iteration 5/10
+optmc results:
+average length = 6.8229e-01; average iter = 70.36; budget = 8809
+min ESS = 6.2272e-01; min ESS / budget = 3.3834e-05; budget = 8809
+iteration 6/10
+optmc results:
+average length = 6.7824e-01; average iter = 70.71; budget = 8784
+min ESS = 5.4556e-01; min ESS / budget = 2.9682e-05; budget = 8784
+iteration 7/10
+optmc results:
+average length = 6.9837e-01; average iter = 71.13; budget = 8836
+min ESS = 7.8721e-01; min ESS / budget = 4.2709e-05; budget = 8836
+iteration 8/10
+optmc results:
+average length = 6.6843e-01; average iter = 71.00; budget = 8820
+min ESS = 5.3916e-01; min ESS / budget = 2.9277e-05; budget = 8820
+iteration 9/10
+optmc results:
+average length = 6.6216e-01; average iter = 70.13; budget = 8780
+min ESS = 6.5043e-01; min ESS / budget = 3.5396e-05; budget = 8780
+Starting experiment with seed=1
+Adapting HMC...
+adaptation budget is 9596 with 100 chains
+eps = 0.0704; T = 1.1261; T/eps = 16.0
+Running hmc ...
+hmc results:
+mean AR = 0.649; min AR = 0.633; max AR = 0.670
+min ESS = 2.7945e-01; min ESS / budget = 1.5214e-05; budget = 8772
+Running rechmc ...
+rechmc results:
+mean AR = 0.648; min AR = 0.625; max AR = 0.671
+min ESS = 3.7951e-01; min ESS / budget = 2.0815e-05; budget = 8637
+Running ohmc ...
+ohmc results:
+mean AR = 0.912; min AR = 0.906; max AR = 0.917
+min ESS = 5.6847e-01; min ESS / budget = 3.0929e-05; budget = 8784
+Running optmc ...
+iteration 0/10
+optmc results:
+average length = 6.6567e-01; average iter = 69.91; budget = 8821
+min ESS = 7.8176e-01; min ESS / budget = 4.2448e-05; budget = 8821
+iteration 1/10
+optmc results:
+average length = 6.9342e-01; average iter = 71.15; budget = 8839
+min ESS = 5.2859e-01; min ESS / budget = 2.8673e-05; budget = 8839
+iteration 2/10
+optmc results:
+average length = 7.4584e-01; average iter = 71.09; budget = 8831
+min ESS = 7.8480e-01; min ESS / budget = 4.2589e-05; budget = 8831
+iteration 3/10
+optmc results:
+average length = 6.6093e-01; average iter = 70.65; budget = 8776
+min ESS = 8.5974e-01; min ESS / budget = 4.6796e-05; budget = 8776
+iteration 4/10
+optmc results:
+average length = 6.5336e-01; average iter = 69.95; budget = 8826
+min ESS = 6.8723e-01; min ESS / budget = 3.7305e-05; budget = 8826
+iteration 5/10
+optmc results:
+average length = 6.8229e-01; average iter = 70.36; budget = 8809
+min ESS = 6.2272e-01; min ESS / budget = 3.3834e-05; budget = 8809
+iteration 6/10
+optmc results:
+average length = 6.7824e-01; average iter = 70.71; budget = 8784
+min ESS = 5.4556e-01; min ESS / budget = 2.9682e-05; budget = 8784
+iteration 7/10
+optmc results:
+average length = 6.9837e-01; average iter = 71.13; budget = 8836
+min ESS = 7.8721e-01; min ESS / budget = 4.2709e-05; budget = 8836
+iteration 8/10
+optmc results:
+average length = 6.6843e-01; average iter = 71.00; budget = 8820
+min ESS = 5.3916e-01; min ESS / budget = 2.9277e-05; budget = 8820
+iteration 9/10
+optmc results:
+average length = 6.6216e-01; average iter = 70.13; budget = 8780
+min ESS = 6.5043e-01; min ESS / budget = 3.5396e-05; budget = 8780
+Starting experiment with seed=0
+Adapting HMC...
+adaptation budget is 8067 with 100 chains
+eps = 0.0702; T = 1.0592; T/eps = 16.0
+Running hmc ...
+hmc results:
+mean AR = 0.652; min AR = 0.631; max AR = 0.673
+min ESS = 2.6644e-01; min ESS / budget = 1.6522e-05; budget = 8059
+Running rechmc ...
+rechmc results:
+mean AR = 0.650; min AR = 0.628; max AR = 0.669
+min ESS = 3.8525e-01; min ESS / budget = 2.3829e-05; budget = 8100
+Running ohmc ...
+ohmc results:
+mean AR = 0.911; min AR = 0.907; max AR = 0.915
+min ESS = 5.6686e-01; min ESS / budget = 3.5141e-05; budget = 8064
+Running ohmc_jitter ...
+ohmc_jitter results:
+mean AR = 0.784; min AR = 0.777; max AR = 0.794
+min ESS = 4.3372e-01; min ESS / budget = 2.6889e-05; budget = 8063
+Running optmc ...
+iteration 0/10
+optmc results:
+average length = 6.7963e-01; average iter = 70.54; budget = 8067
+min ESS = 7.3071e-01; min ESS / budget = 4.5290e-05; budget = 8067
+iteration 1/10
+optmc results:
+average length = 7.0528e-01; average iter = 70.32; budget = 8110
+min ESS = 7.8107e-01; min ESS / budget = 4.8283e-05; budget = 8110
+iteration 2/10
+optmc results:
+average length = 6.9517e-01; average iter = 70.84; budget = 8101
+min ESS = 6.2637e-01; min ESS / budget = 3.8741e-05; budget = 8101
+iteration 3/10
+optmc results:
+average length = 7.1011e-01; average iter = 71.03; budget = 8124
+min ESS = 6.6615e-01; min ESS / budget = 4.1143e-05; budget = 8124
+iteration 4/10
+optmc results:
+average length = 6.7894e-01; average iter = 71.60; budget = 8119
+min ESS = 5.7748e-01; min ESS / budget = 3.5677e-05; budget = 8119
+iteration 5/10
+optmc results:
+average length = 7.3069e-01; average iter = 71.30; budget = 8085
+min ESS = 8.9560e-01; min ESS / budget = 5.5448e-05; budget = 8085
+iteration 6/10
+optmc results:
+average length = 7.2823e-01; average iter = 70.66; budget = 8081
+min ESS = 5.1569e-01; min ESS / budget = 3.1935e-05; budget = 8081
+iteration 7/10
+optmc results:
+average length = 6.8857e-01; average iter = 70.72; budget = 8087
+min ESS = 4.8190e-01; min ESS / budget = 2.9832e-05; budget = 8087
+iteration 8/10
+optmc results:
+average length = 6.9079e-01; average iter = 69.90; budget = 8061
+min ESS = 5.7433e-01; min ESS / budget = 3.5611e-05; budget = 8061
+iteration 9/10
+optmc results:
+average length = 7.3264e-01; average iter = 70.60; budget = 8074
+min ESS = 4.3582e-01; min ESS / budget = 2.7001e-05; budget = 8074
+Starting experiment with seed=1
+Adapting HMC...
+adaptation budget is 9596 with 100 chains
+eps = 0.0704; T = 1.1261; T/eps = 16.0
+Running hmc ...
+hmc results:
+mean AR = 0.649; min AR = 0.633; max AR = 0.670
+min ESS = 2.7945e-01; min ESS / budget = 1.5214e-05; budget = 8772
+Running rechmc ...
+rechmc results:
+mean AR = 0.648; min AR = 0.625; max AR = 0.671
+min ESS = 3.7951e-01; min ESS / budget = 2.0815e-05; budget = 8637
+Running ohmc ...
+ohmc results:
+mean AR = 0.912; min AR = 0.906; max AR = 0.917
+min ESS = 5.6847e-01; min ESS / budget = 3.0929e-05; budget = 8784
+Running ohmc_jitter ...
+ohmc_jitter results:
+mean AR = 0.795; min AR = 0.788; max AR = 0.805
+min ESS = 4.5713e-01; min ESS / budget = 2.4876e-05; budget = 8780
+Running optmc ...
+iteration 0/10
+optmc results:
+average length = 7.4107e-01; average iter = 70.89; budget = 8806
+min ESS = 5.3372e-01; min ESS / budget = 2.9003e-05; budget = 8806
+iteration 1/10
+optmc results:
+average length = 6.8183e-01; average iter = 70.90; budget = 8807
+min ESS = 4.7012e-01; min ESS / budget = 2.5546e-05; budget = 8807
+iteration 2/10
+optmc results:
+average length = 6.5211e-01; average iter = 69.17; budget = 8794
+min ESS = 5.8172e-01; min ESS / budget = 3.1632e-05; budget = 8794
+iteration 3/10
+optmc results:
+average length = 6.7089e-01; average iter = 71.50; budget = 8813
+min ESS = 6.7163e-01; min ESS / budget = 3.6484e-05; budget = 8813
+iteration 4/10
+optmc results:
+average length = 7.0444e-01; average iter = 71.28; budget = 8785
+min ESS = 5.9879e-01; min ESS / budget = 3.2577e-05; budget = 8785
+iteration 5/10
+optmc results:
+average length = 6.9185e-01; average iter = 70.69; budget = 8781
+min ESS = 5.8977e-01; min ESS / budget = 3.2093e-05; budget = 8781
+iteration 6/10
+optmc results:
+average length = 6.7839e-01; average iter = 70.30; budget = 8801
+min ESS = 4.4305e-01; min ESS / budget = 2.4083e-05; budget = 8801
+iteration 7/10
+optmc results:
+average length = 7.8218e-01; average iter = 71.61; budget = 8826
+min ESS = 7.5263e-01; min ESS / budget = 4.0855e-05; budget = 8826
+iteration 8/10
+optmc results:
+average length = 7.0312e-01; average iter = 71.36; budget = 8795
+min ESS = 6.7205e-01; min ESS / budget = 3.6542e-05; budget = 8795
+iteration 9/10
+optmc results:
+average length = 7.1799e-01; average iter = 70.80; budget = 8795
+min ESS = 1.0072e+00; min ESS / budget = 5.4769e-05; budget = 8795
+Starting experiment with seed=1
+Adapting HMC...
+adaptation budget is 9596 with 100 chains
+eps = 0.0704; T = 1.1261; T/eps = 16.0
+Running hmc ...
+hmc results:
+mean AR = 0.649; min AR = 0.633; max AR = 0.670
+min ESS = 2.7945e-01; min ESS / budget = 1.5214e-05; budget = 8772
+Running rechmc ...
+rechmc results:
+mean AR = 0.648; min AR = 0.625; max AR = 0.671
+min ESS = 3.7951e-01; min ESS / budget = 2.0815e-05; budget = 8637
+Running ohmc ...
+ohmc results:
+mean AR = 0.912; min AR = 0.906; max AR = 0.917
+min ESS = 5.6847e-01; min ESS / budget = 3.0929e-05; budget = 8784
+Running optmc90 ...
+iteration 0/100
+optmc90 results:
+average length = 2.5079e-01; average iter = 8.48; budget = 8774
+min ESS = 6.5427e-02; min ESS / budget = 3.5616e-06; budget = 8774
+iteration 1/100
+optmc90 results:
+average length = 2.5891e-01; average iter = 8.50; budget = 8780
+min ESS = 7.6860e-02; min ESS / budget = 4.1826e-06; budget = 8780
+iteration 2/100
+optmc90 results:
+average length = 2.3660e-01; average iter = 8.48; budget = 8776
+min ESS = 6.9850e-02; min ESS / budget = 3.8020e-06; budget = 8776
+iteration 3/100
+optmc90 results:
+average length = 2.4385e-01; average iter = 8.51; budget = 8773
+min ESS = 5.5843e-02; min ESS / budget = 3.0401e-06; budget = 8773
+iteration 4/100
+optmc90 results:
+average length = 2.5496e-01; average iter = 8.59; budget = 8776
+min ESS = 7.3180e-02; min ESS / budget = 3.9832e-06; budget = 8776
+iteration 5/100
+optmc90 results:
+average length = 2.6303e-01; average iter = 8.56; budget = 8774
+min ESS = 8.3655e-02; min ESS / budget = 4.5539e-06; budget = 8774
+iteration 6/100
+optmc90 results:
+average length = 2.6521e-01; average iter = 8.56; budget = 8778
+min ESS = 6.3700e-02; min ESS / budget = 3.4669e-06; budget = 8778
+iteration 7/100
+optmc90 results:
+average length = 2.5021e-01; average iter = 8.53; budget = 8777
+min ESS = 7.4765e-02; min ESS / budget = 4.0693e-06; budget = 8777
+iteration 8/100
+optmc90 results:
+average length = 2.5695e-01; average iter = 8.52; budget = 8773
+min ESS = 8.8078e-02; min ESS / budget = 4.7949e-06; budget = 8773
+iteration 9/100
+optmc90 results:
+average length = 2.5498e-01; average iter = 8.60; budget = 8775
+min ESS = 6.7931e-02; min ESS / budget = 3.6977e-06; budget = 8775
+iteration 10/100
+optmc90 results:
+average length = 2.5321e-01; average iter = 8.49; budget = 8776
+min ESS = 5.4560e-02; min ESS / budget = 2.9698e-06; budget = 8776
+iteration 11/100
+optmc90 results:
+average length = 2.6890e-01; average iter = 8.50; budget = 8778
+min ESS = 7.6032e-02; min ESS / budget = 4.1380e-06; budget = 8778
+iteration 12/100
+optmc90 results:
+average length = 2.7635e-01; average iter = 8.52; budget = 8775
+min ESS = 8.9308e-02; min ESS / budget = 4.8614e-06; budget = 8775
+iteration 13/100
+optmc90 results:
+average length = 2.5505e-01; average iter = 8.50; budget = 8774
+min ESS = 6.2228e-02; min ESS / budget = 3.3875e-06; budget = 8774
+iteration 14/100
+optmc90 results:
+average length = 2.6222e-01; average iter = 8.55; budget = 8779
+min ESS = 6.0545e-02; min ESS / budget = 3.2950e-06; budget = 8779
+iteration 15/100
+optmc90 results:
+average length = 2.7078e-01; average iter = 8.54; budget = 8777
+min ESS = 1.0046e-01; min ESS / budget = 5.4676e-06; budget = 8777
+iteration 16/100
+optmc90 results:
+average length = 2.5425e-01; average iter = 8.50; budget = 8773
+min ESS = 5.6123e-02; min ESS / budget = 3.0553e-06; budget = 8773
+iteration 17/100
+optmc90 results:
+average length = 2.5037e-01; average iter = 8.49; budget = 8773
+min ESS = 6.5990e-02; min ESS / budget = 3.5925e-06; budget = 8773
+iteration 18/100
+optmc90 results:
+average length = 2.6991e-01; average iter = 8.57; budget = 8774
+min ESS = 8.0649e-02; min ESS / budget = 4.3903e-06; budget = 8774
+iteration 19/100
+optmc90 results:
+average length = 2.6727e-01; average iter = 8.55; budget = 8776
+min ESS = 7.0635e-02; min ESS / budget = 3.8447e-06; budget = 8776
+iteration 20/100
+optmc90 results:
+average length = 2.4270e-01; average iter = 8.53; budget = 8775
+min ESS = 6.0624e-02; min ESS / budget = 3.3000e-06; budget = 8775
+iteration 21/100
+optmc90 results:
+average length = 2.3237e-01; average iter = 8.51; budget = 8776
+min ESS = 3.9860e-02; min ESS / budget = 2.1696e-06; budget = 8776
+iteration 22/100
+optmc90 results:
+average length = 2.6580e-01; average iter = 8.61; budget = 8777
+min ESS = 3.6788e-02; min ESS / budget = 2.0023e-06; budget = 8777
+iteration 23/100
+optmc90 results:
+average length = 2.3043e-01; average iter = 8.56; budget = 8777
+min ESS = 6.9063e-02; min ESS / budget = 3.7589e-06; budget = 8777
+iteration 24/100
+optmc90 results:
+average length = 2.6499e-01; average iter = 8.58; budget = 8776
+min ESS = 5.7662e-02; min ESS / budget = 3.1386e-06; budget = 8776
+iteration 25/100
+optmc90 results:
+average length = 2.5060e-01; average iter = 8.51; budget = 8780
+min ESS = 7.6791e-02; min ESS / budget = 4.1789e-06; budget = 8780
+iteration 26/100
+optmc90 results:
+average length = 2.5414e-01; average iter = 8.55; budget = 8775
+min ESS = 5.8496e-02; min ESS / budget = 3.1842e-06; budget = 8775
+iteration 27/100
+optmc90 results:
+average length = 2.4838e-01; average iter = 8.50; budget = 8779
+min ESS = 5.8566e-02; min ESS / budget = 3.1873e-06; budget = 8779
+iteration 28/100
+optmc90 results:
+average length = 2.6658e-01; average iter = 8.50; budget = 8773
+min ESS = 7.6806e-02; min ESS / budget = 4.1813e-06; budget = 8773
+iteration 29/100
+optmc90 results:
+average length = 2.5671e-01; average iter = 8.51; budget = 8775
+min ESS = 5.7368e-02; min ESS / budget = 3.1227e-06; budget = 8775
+iteration 30/100
+optmc90 results:
+average length = 2.4581e-01; average iter = 8.46; budget = 8778
+min ESS = 8.2382e-02; min ESS / budget = 4.4836e-06; budget = 8778
+iteration 31/100
+optmc90 results:
+average length = 2.5975e-01; average iter = 8.55; budget = 8774
+min ESS = 5.5947e-02; min ESS / budget = 3.0456e-06; budget = 8774
+iteration 32/100
+optmc90 results:
+average length = 2.4766e-01; average iter = 8.52; budget = 8779
+min ESS = 3.8620e-02; min ESS / budget = 2.1018e-06; budget = 8779
+iteration 33/100
+optmc90 results:
+average length = 2.5814e-01; average iter = 8.53; budget = 8773
+min ESS = 6.1654e-02; min ESS / budget = 3.3564e-06; budget = 8773
+iteration 34/100
+optmc90 results:
+average length = 2.4247e-01; average iter = 8.55; budget = 8773
+min ESS = 7.1149e-02; min ESS / budget = 3.8733e-06; budget = 8773
+iteration 35/100
+optmc90 results:
+average length = 2.6847e-01; average iter = 8.48; budget = 8777
+min ESS = 6.0060e-02; min ESS / budget = 3.2690e-06; budget = 8777
+iteration 36/100
+optmc90 results:
+average length = 2.5497e-01; average iter = 8.51; budget = 8776
+min ESS = 8.7030e-02; min ESS / budget = 4.7371e-06; budget = 8776
+iteration 37/100
+optmc90 results:
+average length = 2.6019e-01; average iter = 8.55; budget = 8777
+min ESS = 8.6527e-02; min ESS / budget = 4.7094e-06; budget = 8777
+iteration 38/100
+optmc90 results:
+average length = 2.5049e-01; average iter = 8.50; budget = 8773
+min ESS = 8.8319e-02; min ESS / budget = 4.8080e-06; budget = 8773
+iteration 39/100
+optmc90 results:
+average length = 2.4122e-01; average iter = 8.48; budget = 8778
+min ESS = 9.3945e-02; min ESS / budget = 5.1130e-06; budget = 8778
+iteration 40/100
+optmc90 results:
+average length = 2.3819e-01; average iter = 8.50; budget = 8777
+min ESS = 6.5405e-02; min ESS / budget = 3.5598e-06; budget = 8777
+iteration 41/100
+optmc90 results:
+average length = 2.5672e-01; average iter = 8.53; budget = 8774
+min ESS = 8.0235e-02; min ESS / budget = 4.3677e-06; budget = 8774
+iteration 42/100
+optmc90 results:
+average length = 2.5224e-01; average iter = 8.54; budget = 8776
+min ESS = 5.9816e-02; min ESS / budget = 3.2558e-06; budget = 8776
+iteration 43/100
+optmc90 results:
+average length = 2.5143e-01; average iter = 8.51; budget = 8779
+min ESS = 7.5044e-02; min ESS / budget = 4.0840e-06; budget = 8779
+iteration 44/100
+optmc90 results:
+average length = 2.5024e-01; average iter = 8.58; budget = 8781
+min ESS = 5.4541e-02; min ESS / budget = 2.9679e-06; budget = 8781
+iteration 45/100
+optmc90 results:
+average length = 2.5254e-01; average iter = 8.50; budget = 8780
+min ESS = 5.6802e-02; min ESS / budget = 3.0911e-06; budget = 8780
+iteration 46/100
+optmc90 results:
+average length = 2.4754e-01; average iter = 8.49; budget = 8779
+min ESS = 8.3418e-02; min ESS / budget = 4.5397e-06; budget = 8779
+iteration 47/100
+optmc90 results:
+average length = 2.6418e-01; average iter = 8.58; budget = 8775
+min ESS = 1.0698e-01; min ESS / budget = 5.8233e-06; budget = 8775
+iteration 48/100
+optmc90 results:
+average length = 2.6177e-01; average iter = 8.57; budget = 8779
+min ESS = 4.8921e-02; min ESS / budget = 2.6624e-06; budget = 8779
+iteration 49/100
+optmc90 results:
+average length = 2.4552e-01; average iter = 8.53; budget = 8774
+min ESS = 5.2962e-02; min ESS / budget = 2.8831e-06; budget = 8774
+iteration 50/100
+optmc90 results:
+average length = 2.5955e-01; average iter = 8.50; budget = 8779
+min ESS = 8.4116e-02; min ESS / budget = 4.5778e-06; budget = 8779
+iteration 51/100
+optmc90 results:
+average length = 2.4972e-01; average iter = 8.54; budget = 8773
+min ESS = 6.2896e-02; min ESS / budget = 3.4240e-06; budget = 8773
+iteration 52/100
+optmc90 results:
+average length = 2.5121e-01; average iter = 8.47; budget = 8775
+min ESS = 6.7787e-02; min ESS / budget = 3.6899e-06; budget = 8775
+iteration 53/100
+optmc90 results:
+average length = 2.4895e-01; average iter = 8.51; budget = 8775
+min ESS = 5.3289e-02; min ESS / budget = 2.9007e-06; budget = 8775
+iteration 54/100
+optmc90 results:
+average length = 2.4405e-01; average iter = 8.48; budget = 8778
+min ESS = 8.3399e-02; min ESS / budget = 4.5390e-06; budget = 8778
+iteration 55/100
+optmc90 results:
+average length = 2.5518e-01; average iter = 8.53; budget = 8777
+min ESS = 1.3708e-01; min ESS / budget = 7.4612e-06; budget = 8777
+iteration 56/100
+optmc90 results:
+average length = 2.6561e-01; average iter = 8.56; budget = 8776
+min ESS = 9.1791e-02; min ESS / budget = 4.9962e-06; budget = 8776
+iteration 57/100
+optmc90 results:
+average length = 2.5641e-01; average iter = 8.54; budget = 8773
+min ESS = 8.6729e-02; min ESS / budget = 4.7215e-06; budget = 8773
+iteration 58/100
+optmc90 results:
+average length = 2.3917e-01; average iter = 8.48; budget = 8776
+min ESS = 5.9850e-02; min ESS / budget = 3.2577e-06; budget = 8776
+iteration 59/100
+optmc90 results:
+average length = 2.4648e-01; average iter = 8.53; budget = 8778
+min ESS = 6.1725e-02; min ESS / budget = 3.3593e-06; budget = 8778
+iteration 60/100
+optmc90 results:
+average length = 2.4865e-01; average iter = 8.52; budget = 8779
+min ESS = 7.2332e-02; min ESS / budget = 3.9364e-06; budget = 8779
+iteration 61/100
+optmc90 results:
+average length = 2.4596e-01; average iter = 8.47; budget = 8775
+min ESS = 6.8630e-02; min ESS / budget = 3.7358e-06; budget = 8775
+iteration 62/100
+optmc90 results:
+average length = 2.6062e-01; average iter = 8.56; budget = 8779
+min ESS = 8.3053e-02; min ESS / budget = 4.5199e-06; budget = 8779
+iteration 63/100
+optmc90 results:
+average length = 2.6594e-01; average iter = 8.54; budget = 8774
+min ESS = 6.0970e-02; min ESS / budget = 3.3190e-06; budget = 8774
+iteration 64/100
+optmc90 results:
+average length = 2.5622e-01; average iter = 8.50; budget = 8779
+min ESS = 6.6883e-02; min ESS / budget = 3.6399e-06; budget = 8779
+iteration 65/100
+optmc90 results:
+average length = 2.5810e-01; average iter = 8.52; budget = 8774
+min ESS = 5.4813e-02; min ESS / budget = 2.9838e-06; budget = 8774
+iteration 66/100
+optmc90 results:
+average length = 2.5105e-01; average iter = 8.47; budget = 8774
+min ESS = 9.5647e-02; min ESS / budget = 5.2067e-06; budget = 8774
+iteration 67/100
+optmc90 results:
+average length = 2.5081e-01; average iter = 8.52; budget = 8780
+min ESS = 4.4775e-02; min ESS / budget = 2.4366e-06; budget = 8780
+iteration 68/100
+optmc90 results:
+average length = 2.5756e-01; average iter = 8.52; budget = 8775
+min ESS = 4.9549e-02; min ESS / budget = 2.6971e-06; budget = 8775
+iteration 69/100
+optmc90 results:
+average length = 2.5923e-01; average iter = 8.50; budget = 8779
+min ESS = 6.9358e-02; min ESS / budget = 3.7746e-06; budget = 8779
+iteration 70/100
+optmc90 results:
+average length = 2.5105e-01; average iter = 8.56; budget = 8780
+min ESS = 6.4097e-02; min ESS / budget = 3.4881e-06; budget = 8780
+iteration 71/100
+optmc90 results:
+average length = 2.5795e-01; average iter = 8.48; budget = 8778
+min ESS = 8.7972e-02; min ESS / budget = 4.7879e-06; budget = 8778
+iteration 72/100
+optmc90 results:
+average length = 2.5100e-01; average iter = 8.51; budget = 8779
+min ESS = 9.4741e-02; min ESS / budget = 5.1560e-06; budget = 8779
+iteration 73/100
+optmc90 results:
+average length = 2.5580e-01; average iter = 8.53; budget = 8776
+min ESS = 7.1747e-02; min ESS / budget = 3.9052e-06; budget = 8776
+iteration 74/100
+optmc90 results:
+average length = 2.4167e-01; average iter = 8.48; budget = 8776
+min ESS = 4.7576e-02; min ESS / budget = 2.5896e-06; budget = 8776
+iteration 75/100
+optmc90 results:
+average length = 2.5347e-01; average iter = 8.49; budget = 8773
+min ESS = 9.0731e-02; min ESS / budget = 4.9393e-06; budget = 8773
+iteration 76/100
+optmc90 results:
+average length = 2.5526e-01; average iter = 8.52; budget = 8781
+min ESS = 7.6186e-02; min ESS / budget = 4.1457e-06; budget = 8781
+iteration 77/100
+optmc90 results:
+average length = 2.5368e-01; average iter = 8.54; budget = 8773
+min ESS = 1.0782e-01; min ESS / budget = 5.8698e-06; budget = 8773
+iteration 78/100
+optmc90 results:
+average length = 2.4888e-01; average iter = 8.46; budget = 8778
+min ESS = 6.2231e-02; min ESS / budget = 3.3869e-06; budget = 8778
+iteration 79/100
+optmc90 results:
+average length = 2.6461e-01; average iter = 8.55; budget = 8775
+min ESS = 8.4619e-02; min ESS / budget = 4.6061e-06; budget = 8775
+iteration 80/100
+optmc90 results:
+average length = 2.5145e-01; average iter = 8.54; budget = 8773
+min ESS = 9.6401e-02; min ESS / budget = 5.2480e-06; budget = 8773
+iteration 81/100
+optmc90 results:
+average length = 2.5448e-01; average iter = 8.51; budget = 8777
+min ESS = 1.1526e-01; min ESS / budget = 6.2736e-06; budget = 8777
+iteration 82/100
+optmc90 results:
+average length = 2.6496e-01; average iter = 8.55; budget = 8775
+min ESS = 6.0160e-02; min ESS / budget = 3.2747e-06; budget = 8775
+iteration 83/100
+optmc90 results:
+average length = 2.5677e-01; average iter = 8.52; budget = 8777
+min ESS = 1.0591e-01; min ESS / budget = 5.7646e-06; budget = 8777
+iteration 84/100
+optmc90 results:
+average length = 2.4953e-01; average iter = 8.46; budget = 8775
+min ESS = 8.1769e-02; min ESS / budget = 4.4510e-06; budget = 8775
+iteration 85/100
+optmc90 results:
+average length = 2.5644e-01; average iter = 8.50; budget = 8779
+min ESS = 9.1790e-02; min ESS / budget = 4.9954e-06; budget = 8779
+iteration 86/100
+optmc90 results:
+average length = 2.4889e-01; average iter = 8.51; budget = 8775
+min ESS = 6.1046e-02; min ESS / budget = 3.3230e-06; budget = 8775
+iteration 87/100
+optmc90 results:
+average length = 2.6567e-01; average iter = 8.53; budget = 8779
+min ESS = 6.2799e-02; min ESS / budget = 3.4176e-06; budget = 8779
+iteration 88/100
+optmc90 results:
+average length = 2.4014e-01; average iter = 8.46; budget = 8779
+min ESS = 8.1567e-02; min ESS / budget = 4.4390e-06; budget = 8779
+iteration 89/100
+optmc90 results:
+average length = 2.5118e-01; average iter = 8.53; budget = 8775
+min ESS = 6.6704e-02; min ESS / budget = 3.6309e-06; budget = 8775
+iteration 90/100
+optmc90 results:
+average length = 2.4464e-01; average iter = 8.46; budget = 8778
+min ESS = 5.7071e-02; min ESS / budget = 3.1061e-06; budget = 8778
+iteration 91/100
+optmc90 results:
+average length = 2.4261e-01; average iter = 8.51; budget = 8777
+min ESS = 7.9783e-02; min ESS / budget = 4.3424e-06; budget = 8777
+iteration 92/100
+optmc90 results:
+average length = 2.7560e-01; average iter = 8.55; budget = 8775
+min ESS = 8.4915e-02; min ESS / budget = 4.6222e-06; budget = 8775
+iteration 93/100
+optmc90 results:
+average length = 2.4207e-01; average iter = 8.59; budget = 8773
+min ESS = 3.8804e-02; min ESS / budget = 2.1124e-06; budget = 8773
+iteration 94/100
+optmc90 results:
+average length = 2.4790e-01; average iter = 8.57; budget = 8779
+min ESS = 6.8294e-02; min ESS / budget = 3.7167e-06; budget = 8779
+iteration 95/100
+optmc90 results:
+average length = 2.5521e-01; average iter = 8.50; budget = 8779
+min ESS = 5.7037e-02; min ESS / budget = 3.1041e-06; budget = 8779
+iteration 96/100
+optmc90 results:
+average length = 2.5922e-01; average iter = 8.55; budget = 8775
+min ESS = 6.4206e-02; min ESS / budget = 3.4950e-06; budget = 8775
+iteration 97/100
+optmc90 results:
+average length = 2.6436e-01; average iter = 8.54; budget = 8773
+min ESS = 7.3107e-02; min ESS / budget = 3.9799e-06; budget = 8773
+iteration 98/100
+optmc90 results:
+average length = 2.4212e-01; average iter = 8.50; budget = 8773
+min ESS = 4.9275e-02; min ESS / budget = 2.6825e-06; budget = 8773
+iteration 99/100
+optmc90 results:
+average length = 2.7701e-01; average iter = 8.58; budget = 8774
+min ESS = 7.4359e-02; min ESS / budget = 4.0478e-06; budget = 8774
+Running optmc99 ...
+iteration 0/100
+optmc99 results:
+average length = 6.8696e-01; average iter = 69.61; budget = 8782
+min ESS = 4.8432e-01; min ESS / budget = 2.6353e-05; budget = 8782
+iteration 1/100
+optmc99 results:
+average length = 7.0220e-01; average iter = 71.38; budget = 8797
+min ESS = 7.3070e-01; min ESS / budget = 3.9727e-05; budget = 8797
+iteration 2/100
+optmc99 results:
+average length = 7.1261e-01; average iter = 70.71; budget = 8784
+min ESS = 9.6356e-01; min ESS / budget = 5.2424e-05; budget = 8784
+iteration 3/100
+optmc99 results:
+average length = 6.9491e-01; average iter = 70.48; budget = 8824
+min ESS = 6.1344e-01; min ESS / budget = 3.3303e-05; budget = 8824
+iteration 4/100
+optmc99 results:
+average length = 6.5968e-01; average iter = 70.44; budget = 8819
+min ESS = 6.8735e-01; min ESS / budget = 3.7325e-05; budget = 8819
+iteration 5/100
+optmc99 results:
+average length = 6.7810e-01; average iter = 70.32; budget = 8804
+min ESS = 8.4543e-01; min ESS / budget = 4.5947e-05; budget = 8804
+iteration 6/100
+optmc99 results:
+average length = 7.0781e-01; average iter = 70.53; budget = 8830
+min ESS = 7.0763e-01; min ESS / budget = 3.8404e-05; budget = 8830
+iteration 7/100
+optmc99 results:
+average length = 7.5489e-01; average iter = 70.16; budget = 8783
+min ESS = 5.4016e-01; min ESS / budget = 2.9390e-05; budget = 8783
+iteration 8/100
+optmc99 results:
+average length = 6.9486e-01; average iter = 71.38; budget = 8797
+min ESS = 7.1039e-01; min ESS / budget = 3.8623e-05; budget = 8797
+iteration 9/100
+optmc99 results:
+average length = 7.1400e-01; average iter = 71.27; budget = 8784
+min ESS = 6.2873e-01; min ESS / budget = 3.4207e-05; budget = 8784
+iteration 10/100
+optmc99 results:
+average length = 6.8345e-01; average iter = 70.52; budget = 8829
+min ESS = 7.9556e-01; min ESS / budget = 4.3178e-05; budget = 8829
+iteration 11/100
+optmc99 results:
+average length = 7.2357e-01; average iter = 70.67; budget = 8778
+min ESS = 5.5253e-01; min ESS / budget = 3.0071e-05; budget = 8778
+iteration 12/100
+optmc99 results:
+average length = 7.1110e-01; average iter = 69.47; budget = 8833
+min ESS = 5.6855e-01; min ESS / budget = 3.0851e-05; budget = 8833
+iteration 13/100
+optmc99 results:
+average length = 6.8833e-01; average iter = 70.81; budget = 8796
+min ESS = 7.7554e-01; min ESS / budget = 4.2167e-05; budget = 8796
+iteration 14/100
+optmc99 results:
+average length = 6.9050e-01; average iter = 71.26; budget = 8783
+min ESS = 4.8848e-01; min ESS / budget = 2.6578e-05; budget = 8783
+iteration 15/100
+optmc99 results:
+average length = 7.4346e-01; average iter = 70.58; budget = 8837
+min ESS = 8.4557e-01; min ESS / budget = 4.5873e-05; budget = 8837
+iteration 16/100
+optmc99 results:
+average length = 7.2444e-01; average iter = 70.08; budget = 8773
+min ESS = 5.6609e-01; min ESS / budget = 3.0817e-05; budget = 8773
+iteration 17/100
+optmc99 results:
+average length = 6.6958e-01; average iter = 69.50; budget = 8836
+min ESS = 6.7021e-01; min ESS / budget = 3.6361e-05; budget = 8836
+iteration 18/100
+optmc99 results:
+average length = 7.0046e-01; average iter = 70.13; budget = 8779
+min ESS = 7.9851e-01; min ESS / budget = 4.3456e-05; budget = 8779
+iteration 19/100
+optmc99 results:
+average length = 7.0903e-01; average iter = 69.83; budget = 8810
+min ESS = 5.5442e-01; min ESS / budget = 3.0122e-05; budget = 8810
+iteration 20/100
+optmc99 results:
+average length = 7.0729e-01; average iter = 70.57; budget = 8836
+min ESS = 7.5433e-01; min ESS / budget = 4.0925e-05; budget = 8836
+iteration 21/100
+optmc99 results:
+average length = 6.6425e-01; average iter = 70.67; budget = 8779
+min ESS = 5.1096e-01; min ESS / budget = 2.7807e-05; budget = 8779
+iteration 22/100
+optmc99 results:
+average length = 6.9202e-01; average iter = 70.83; budget = 8798
+min ESS = 5.2618e-01; min ESS / budget = 2.8606e-05; budget = 8798
+iteration 23/100
+optmc99 results:
+average length = 6.5278e-01; average iter = 71.13; budget = 8837
+min ESS = 7.6630e-01; min ESS / budget = 4.1572e-05; budget = 8837
+iteration 24/100
+optmc99 results:
+average length = 6.9879e-01; average iter = 70.61; budget = 8841
+min ESS = 5.0235e-01; min ESS / budget = 2.7247e-05; budget = 8841
+iteration 25/100
+optmc99 results:
+average length = 7.1335e-01; average iter = 70.94; budget = 8813
+min ESS = 8.0240e-01; min ESS / budget = 4.3588e-05; budget = 8813
+iteration 26/100
+optmc99 results:
+average length = 6.7181e-01; average iter = 70.58; budget = 8837
+min ESS = 6.7518e-01; min ESS / budget = 3.6629e-05; budget = 8837
+iteration 27/100
+optmc99 results:
+average length = 6.8044e-01; average iter = 70.61; budget = 8841
+min ESS = 6.8339e-01; min ESS / budget = 3.7066e-05; budget = 8841
+iteration 28/100
+optmc99 results:
+average length = 6.8791e-01; average iter = 69.58; budget = 8778
+min ESS = 7.7100e-01; min ESS / budget = 4.1962e-05; budget = 8778
+iteration 29/100
+optmc99 results:
+average length = 7.1971e-01; average iter = 70.13; budget = 8780
+min ESS = 5.4403e-01; min ESS / budget = 2.9605e-05; budget = 8780
+iteration 30/100
+optmc99 results:
+average length = 7.1433e-01; average iter = 71.35; budget = 8794
+min ESS = 3.0068e-01; min ESS / budget = 1.6350e-05; budget = 8794
+iteration 31/100
+optmc99 results:
+average length = 6.8265e-01; average iter = 71.13; budget = 8836
+min ESS = 4.0496e-01; min ESS / budget = 2.1970e-05; budget = 8836
+iteration 32/100
+optmc99 results:
+average length = 7.0919e-01; average iter = 69.90; budget = 8819
+min ESS = 5.4367e-01; min ESS / budget = 2.9523e-05; budget = 8819
+iteration 33/100
+optmc99 results:
+average length = 6.9888e-01; average iter = 70.12; budget = 8778
+min ESS = 9.0027e-01; min ESS / budget = 4.8997e-05; budget = 8778
+iteration 34/100
+optmc99 results:
+average length = 7.2160e-01; average iter = 69.43; budget = 8827
+min ESS = 3.7218e-01; min ESS / budget = 2.0202e-05; budget = 8827
+iteration 35/100
+optmc99 results:
+average length = 7.1178e-01; average iter = 71.07; budget = 8829
+min ESS = 6.8615e-01; min ESS / budget = 3.7240e-05; budget = 8829
+iteration 36/100
+optmc99 results:
+average length = 6.9342e-01; average iter = 70.83; budget = 8799
+min ESS = 7.3205e-01; min ESS / budget = 3.9796e-05; budget = 8799
+iteration 37/100
+optmc99 results:
+average length = 6.7908e-01; average iter = 69.92; budget = 8822
+min ESS = 7.4009e-01; min ESS / budget = 4.0183e-05; budget = 8822
+iteration 38/100
+optmc99 results:
+average length = 7.3308e-01; average iter = 69.63; budget = 8785
+min ESS = 6.9362e-01; min ESS / budget = 3.7736e-05; budget = 8785
+iteration 39/100
+optmc99 results:
+average length = 6.7035e-01; average iter = 70.31; budget = 8803
+min ESS = 7.4736e-01; min ESS / budget = 4.0620e-05; budget = 8803
+iteration 40/100
+optmc99 results:
+average length = 6.9505e-01; average iter = 69.81; budget = 8808
+min ESS = 3.6355e-01; min ESS / budget = 1.9754e-05; budget = 8808
+iteration 41/100
+optmc99 results:
+average length = 7.3722e-01; average iter = 70.42; budget = 8816
+min ESS = 5.7472e-01; min ESS / budget = 3.1215e-05; budget = 8816
+iteration 42/100
+optmc99 results:
+average length = 7.0899e-01; average iter = 70.83; budget = 8798
+min ESS = 7.5883e-01; min ESS / budget = 4.1254e-05; budget = 8798
+iteration 43/100
+optmc99 results:
+average length = 7.3120e-01; average iter = 70.50; budget = 8827
+min ESS = 5.9490e-01; min ESS / budget = 3.2291e-05; budget = 8827
+iteration 44/100
+optmc99 results:
+average length = 6.8793e-01; average iter = 70.05; budget = 8838
+min ESS = 7.1483e-01; min ESS / budget = 3.8778e-05; budget = 8838
+iteration 45/100
+optmc99 results:
+average length = 7.3502e-01; average iter = 70.05; budget = 8839
+min ESS = 8.6703e-01; min ESS / budget = 4.7032e-05; budget = 8839
+iteration 46/100
+optmc99 results:
+average length = 6.5501e-01; average iter = 69.40; budget = 8824
+min ESS = 5.9417e-01; min ESS / budget = 3.2257e-05; budget = 8824
+iteration 47/100
+optmc99 results:
+average length = 6.9569e-01; average iter = 70.90; budget = 8807
+min ESS = 6.8127e-01; min ESS / budget = 3.7020e-05; budget = 8807
+iteration 48/100
+optmc99 results:
+average length = 7.2260e-01; average iter = 70.15; budget = 8782
+min ESS = 3.9816e-01; min ESS / budget = 2.1665e-05; budget = 8782
+iteration 49/100
+optmc99 results:
+average length = 7.0855e-01; average iter = 70.49; budget = 8825
+min ESS = 5.9367e-01; min ESS / budget = 3.2228e-05; budget = 8825
+iteration 50/100
+optmc99 results:
+average length = 6.7482e-01; average iter = 70.47; budget = 8823
+min ESS = 6.6119e-01; min ESS / budget = 3.5897e-05; budget = 8823
+iteration 51/100
+optmc99 results:
+average length = 7.1708e-01; average iter = 71.10; budget = 8833
+min ESS = 9.1643e-01; min ESS / budget = 4.9727e-05; budget = 8833
+iteration 52/100
+optmc99 results:
+average length = 6.8231e-01; average iter = 70.67; budget = 8779
+min ESS = 5.2597e-01; min ESS / budget = 2.8624e-05; budget = 8779
+iteration 53/100
+optmc99 results:
+average length = 7.1341e-01; average iter = 70.50; budget = 8826
+min ESS = 7.9864e-01; min ESS / budget = 4.3353e-05; budget = 8826
+iteration 54/100
+optmc99 results:
+average length = 6.7512e-01; average iter = 70.26; budget = 8796
+min ESS = 1.2182e+00; min ESS / budget = 6.6235e-05; budget = 8796
+iteration 55/100
+optmc99 results:
+average length = 7.0874e-01; average iter = 70.57; budget = 8836
+min ESS = 9.6051e-01; min ESS / budget = 5.2111e-05; budget = 8836
+iteration 56/100
+optmc99 results:
+average length = 6.8103e-01; average iter = 70.06; budget = 8840
+min ESS = 3.4190e-01; min ESS / budget = 1.8545e-05; budget = 8840
+iteration 57/100
+optmc99 results:
+average length = 7.1350e-01; average iter = 70.93; budget = 8811
+min ESS = 9.0916e-01; min ESS / budget = 4.9392e-05; budget = 8811
+iteration 58/100
+optmc99 results:
+average length = 6.3755e-01; average iter = 68.80; budget = 8814
+min ESS = 8.0336e-01; min ESS / budget = 4.3637e-05; budget = 8814
+iteration 59/100
+optmc99 results:
+average length = 6.8708e-01; average iter = 70.67; budget = 8779
+min ESS = 6.4639e-01; min ESS / budget = 3.5178e-05; budget = 8779
+iteration 60/100
+optmc99 results:
+average length = 6.6713e-01; average iter = 70.63; budget = 8773
+min ESS = 4.2913e-01; min ESS / budget = 2.3362e-05; budget = 8773
+iteration 61/100
+optmc99 results:
+average length = 6.8179e-01; average iter = 70.28; budget = 8799
+min ESS = 8.0796e-01; min ESS / budget = 4.3923e-05; budget = 8799
+iteration 62/100
+optmc99 results:
+average length = 7.4646e-01; average iter = 70.90; budget = 8807
+min ESS = 5.4741e-01; min ESS / budget = 2.9746e-05; budget = 8807
+iteration 63/100
+optmc99 results:
+average length = 7.0501e-01; average iter = 70.46; budget = 8822
+min ESS = 5.0441e-01; min ESS / budget = 2.7387e-05; budget = 8822
+iteration 64/100
+optmc99 results:
+average length = 6.9149e-01; average iter = 70.15; budget = 8782
+min ESS = 6.4727e-01; min ESS / budget = 3.5220e-05; budget = 8782
+iteration 65/100
+optmc99 results:
+average length = 6.8902e-01; average iter = 70.85; budget = 8801
+min ESS = 4.8907e-01; min ESS / budget = 2.6584e-05; budget = 8801
+iteration 66/100
+optmc99 results:
+average length = 7.1130e-01; average iter = 70.24; budget = 8794
+min ESS = 4.9811e-01; min ESS / budget = 2.7086e-05; budget = 8794
+iteration 67/100
+optmc99 results:
+average length = 6.9727e-01; average iter = 69.40; budget = 8823
+min ESS = 7.3621e-01; min ESS / budget = 3.9970e-05; budget = 8823
+iteration 68/100
+optmc99 results:
+average length = 7.3001e-01; average iter = 70.01; budget = 8833
+min ESS = 5.0774e-01; min ESS / budget = 2.7551e-05; budget = 8833
+iteration 69/100
+optmc99 results:
+average length = 6.8521e-01; average iter = 69.84; budget = 8812
+min ESS = 6.1369e-01; min ESS / budget = 3.3338e-05; budget = 8812
+iteration 70/100
+optmc99 results:
+average length = 7.0599e-01; average iter = 70.33; budget = 8805
+min ESS = 4.5033e-01; min ESS / budget = 2.4473e-05; budget = 8805
+iteration 71/100
+optmc99 results:
+average length = 6.8892e-01; average iter = 70.50; budget = 8827
+min ESS = 9.1693e-01; min ESS / budget = 4.9771e-05; budget = 8827
+iteration 72/100
+optmc99 results:
+average length = 6.8431e-01; average iter = 70.32; budget = 8804
+min ESS = 6.8378e-01; min ESS / budget = 3.7162e-05; budget = 8804
+iteration 73/100
+optmc99 results:
+average length = 7.0802e-01; average iter = 71.23; budget = 8779
+min ESS = 6.3978e-01; min ESS / budget = 3.4818e-05; budget = 8779
+iteration 74/100
+optmc99 results:
+average length = 6.8377e-01; average iter = 70.90; budget = 8808
+min ESS = 6.7324e-01; min ESS / budget = 3.6581e-05; budget = 8808
+iteration 75/100
+optmc99 results:
+average length = 7.0670e-01; average iter = 71.54; budget = 8817
+min ESS = 6.7866e-01; min ESS / budget = 3.6857e-05; budget = 8817
+iteration 76/100
+optmc99 results:
+average length = 7.0536e-01; average iter = 70.10; budget = 8776
+min ESS = 5.7388e-01; min ESS / budget = 3.1237e-05; budget = 8776
+iteration 77/100
+optmc99 results:
+average length = 7.2627e-01; average iter = 70.38; budget = 8811
+min ESS = 3.5527e-01; min ESS / budget = 1.9301e-05; budget = 8811
+iteration 78/100
+optmc99 results:
+average length = 6.4151e-01; average iter = 70.75; budget = 8788
+min ESS = 6.4558e-01; min ESS / budget = 3.5116e-05; budget = 8788
+iteration 79/100
+optmc99 results:
+average length = 6.9960e-01; average iter = 69.98; budget = 8830
+min ESS = 6.3459e-01; min ESS / budget = 3.4440e-05; budget = 8830
+iteration 80/100
+optmc99 results:
+average length = 7.1554e-01; average iter = 70.09; budget = 8774
+min ESS = 4.2855e-01; min ESS / budget = 2.3329e-05; budget = 8774
+iteration 81/100
+optmc99 results:
+average length = 6.9700e-01; average iter = 69.36; budget = 8819
+min ESS = 8.6683e-01; min ESS / budget = 4.7072e-05; budget = 8819
+iteration 82/100
+optmc99 results:
+average length = 6.7318e-01; average iter = 69.66; budget = 8789
+min ESS = 6.8722e-01; min ESS / budget = 3.7379e-05; budget = 8789
+iteration 83/100
+optmc99 results:
+average length = 6.5790e-01; average iter = 69.98; budget = 8830
+min ESS = 6.3633e-01; min ESS / budget = 3.4534e-05; budget = 8830
+iteration 84/100
+optmc99 results:
+average length = 6.4582e-01; average iter = 70.09; budget = 8774
+min ESS = 7.4029e-01; min ESS / budget = 4.0299e-05; budget = 8774
+iteration 85/100
+optmc99 results:
+average length = 7.1803e-01; average iter = 69.93; budget = 8823
+min ESS = 4.8404e-01; min ESS / budget = 2.6279e-05; budget = 8823
+iteration 86/100
+optmc99 results:
+average length = 6.5656e-01; average iter = 71.22; budget = 8777
+min ESS = 5.3807e-01; min ESS / budget = 2.9286e-05; budget = 8777
+iteration 87/100
+optmc99 results:
+average length = 6.7570e-01; average iter = 70.32; budget = 8804
+min ESS = 6.4041e-01; min ESS / budget = 3.4805e-05; budget = 8804
+iteration 88/100
+optmc99 results:
+average length = 7.5358e-01; average iter = 70.67; budget = 8778
+min ESS = 6.7444e-01; min ESS / budget = 3.6706e-05; budget = 8778
+iteration 89/100
+optmc99 results:
+average length = 7.0715e-01; average iter = 70.29; budget = 8800
+min ESS = 8.4694e-01; min ESS / budget = 4.6039e-05; budget = 8800
+iteration 90/100
+optmc99 results:
+average length = 7.0865e-01; average iter = 70.19; budget = 8787
+min ESS = 8.3073e-01; min ESS / budget = 4.5190e-05; budget = 8787
+iteration 91/100
+optmc99 results:
+average length = 7.2155e-01; average iter = 71.45; budget = 8806
+min ESS = 6.8242e-01; min ESS / budget = 3.7084e-05; budget = 8806
+iteration 92/100
+optmc99 results:
+average length = 7.1504e-01; average iter = 69.96; budget = 8827
+min ESS = 9.2939e-01; min ESS / budget = 5.0447e-05; budget = 8827
+iteration 93/100
+optmc99 results:
+average length = 7.0921e-01; average iter = 70.54; budget = 8832
+min ESS = 8.0405e-01; min ESS / budget = 4.3632e-05; budget = 8832
+iteration 94/100
+optmc99 results:
+average length = 6.5706e-01; average iter = 70.81; budget = 8796
+min ESS = 7.0054e-01; min ESS / budget = 3.8089e-05; budget = 8796
+iteration 95/100
+optmc99 results:
+average length = 7.0891e-01; average iter = 71.46; budget = 8808
+min ESS = 7.5402e-01; min ESS / budget = 4.0970e-05; budget = 8808
+iteration 96/100
+optmc99 results:
+average length = 6.9156e-01; average iter = 70.48; budget = 8824
+min ESS = 6.0858e-01; min ESS / budget = 3.3039e-05; budget = 8824
+iteration 97/100
+optmc99 results:
+average length = 7.0594e-01; average iter = 70.72; budget = 8785
+min ESS = 7.1498e-01; min ESS / budget = 3.8898e-05; budget = 8785
+iteration 98/100
+optmc99 results:
+average length = 6.6739e-01; average iter = 71.04; budget = 8825
+min ESS = 7.8042e-01; min ESS / budget = 4.2366e-05; budget = 8825
+iteration 99/100
+optmc99 results:
+average length = 6.8560e-01; average iter = 71.02; budget = 8822
+min ESS = 4.1178e-01; min ESS / budget = 2.2358e-05; budget = 8822
